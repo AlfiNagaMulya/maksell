@@ -63,7 +63,7 @@ body {
 }
 
 .header {
-  background: url('/img/background_header.png');
+  background: url('https://alfinagamulya.github.io/img/background_header.png');
   background-size: cover;
   padding-bottom: 80px;
 }
