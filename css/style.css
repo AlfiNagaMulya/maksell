@@ -6,11 +6,11 @@ body {
 
 .navbar-nav .active {
   -webkit-text-decoration: underline coral 2px;
-          text-decoration: underline coral 2px;
+  text-decoration: underline coral 2px;
 }
 
 .nav-link {
-  font-family: "montserrat-regular";
+  font-family: 'montserrat-regular';
   margin-right: 18px;
   color: #000b26;
   font-size: 14px;
@@ -23,7 +23,7 @@ body {
 
 /* Button Mobile  */
 .btn-started {
-  font-family: "montserrat-semibold";
+  font-family: 'montserrat-semibold';
   background: linear-gradient(241.98deg, #e93f63 9.58%, #ffa800 86.42%);
   color: #ffffff;
   border-radius: 30px;
@@ -35,7 +35,7 @@ body {
 }
 
 .btn-started:hover {
-  font-family: "montserrat-semibold";
+  font-family: 'montserrat-semibold';
   background: linear-gradient(241.98deg, #ffa800 9.58%, #e93f63 86.42%);
   border-color: #ffffff;
   color: #ffffff;
@@ -53,13 +53,13 @@ body {
 }
 
 .header {
-  background: url("/img/background_header.png");
+  background: url('/img/background_header.png');
   background-size: cover;
   padding-bottom: 80px;
 }
 
 .Header-h1 {
-  font-family: "poppins-bold";
+  font-family: 'poppins-bold';
   font-size: 38px;
   line-height: 56px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
