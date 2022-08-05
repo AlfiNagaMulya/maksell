@@ -1,0 +1,65 @@
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(#fcfcfc 1.5px, transparent 1.5px), linear-gradient(to right, #fcfcfc 1.5px, #ffffff 1.5px);
+  background-size: 30px 30px;
+}
+
+.navbar-nav .active {
+  -webkit-text-decoration: underline coral 2px;
+          text-decoration: underline coral 2px;
+}
+
+.nav-link {
+  font-family: "montserrat-regular";
+  margin-right: 18px;
+  color: #000b26;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.nav-link:hover {
+  color: #ff7d1f;
+}
+
+/* Button Mobile  */
+.btn-started {
+  font-family: "montserrat-semibold";
+  background: linear-gradient(241.98deg, #e93f63 9.58%, #ffa800 86.42%);
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-color: #ffffff;
+  width: 150px;
+}
+
+.btn-started:hover {
+  font-family: "montserrat-semibold";
+  background: linear-gradient(241.98deg, #ffa800 9.58%, #e93f63 86.42%);
+  border-color: #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 150px;
+}
+
+/* End Button */
+/*  Header */
+.jumbotron {
+  margin-top: 80px;
+}
+
+.header {
+  background: url("/img/background_header.png");
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.Header-h1 {
+  font-family: "poppins-bold";
+  font-size: 38px;
+  line-height: 56px;
+}/*# sourceMappingURL=style.css.map */
