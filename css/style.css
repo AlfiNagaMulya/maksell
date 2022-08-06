@@ -47,13 +47,13 @@ body {
 }
 .btn-second {
   font-family: 'montserrat-semibold';
-  color: #000b26;
   border-radius: 30px;
   font-size: 14px;
   padding-top: 13px;
   padding-bottom: 13px;
-  border: linear-gradient(241.98deg, #e93f63 9.58%, #ffa800 86.42%);
   width: 150px;
+  color: #0b0b0b;
+  border-color: #000b26;
 }
 
 /* End Button */
