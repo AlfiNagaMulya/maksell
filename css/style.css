@@ -1,7 +1,36 @@
+/* --------------------------------Style Global--------------------------------------------------- */
 body {
   background-color: #ffffff;
   background-image: linear-gradient(#fcfcfc 1.5px, transparent 1.5px), linear-gradient(to right, #fcfcfc 1.5px, #ffffff 1.5px);
   background-size: 30px 30px;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-family: 'poppins-bold';
+  font-size: 38px;
+  line-height: 56px;
+}
+h2 {
+  font-family: 'poppins-bold';
+  font-size: 28px;
+  line-height: 42px;
+}
+h3 {
+  font-family: 'poppins-bold';
+  font-size: 24px;
+  line-height: 36px;
+}
+p {
+  font-family: 'montserrat-medium';
+  font-size: 14px;
+  line-height: 24px;
+  color: #3e3e3e;
+}
+
+span {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
 }
 
 .navbar-nav .active {
@@ -20,6 +49,8 @@ body {
 .nav-link:hover {
   color: #ff7d1f;
 }
+
+/* ----------------------------------------------Mobile Version---------------------------------------------------- */
 
 /* Button Mobile  */
 .btn-started {
@@ -56,7 +87,8 @@ body {
 }
 
 /* End Button */
-/*  Header */
+
+/*  Header Home page */
 .jumbotron {
   margin-top: 80px;
 }
@@ -66,9 +98,64 @@ body {
   background-size: cover;
   padding-bottom: 80px;
 }
+/* End  Header Home page */
 
-.Header-h1 {
-  font-family: 'poppins-bold';
-  font-size: 38px;
-  line-height: 56px;
-} /*# sourceMappingURL=style.css.map */
+/* Features Home */
+.features-home {
+  background: #fffcfc;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.features-sales {
+  background: #fafffb;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.features-nav .nav-link {
+  font-size: 12px;
+}
+.features-nav .active {
+  font-family: 'montserrat-semibold';
+  background: linear-gradient(241.98deg, #ffa800 9.58%, #e93f63 86.42%);
+  border-color: #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+/* End Freatures */
+
+/* Slider Logo Integration */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
+}
+
+.slider {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: 500px;
+}
+
+.slider .slide-track {
+  animation: scroll 50s linear infinite;
+  display: flex;
+  width: calc(500px * 28px);
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+.integration-logo {
+  margin-top: 120px;
+}
+
+/* --------------------------------Mobile Version---------------------------------------------------- */
